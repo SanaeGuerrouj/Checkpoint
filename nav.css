@@ -1,0 +1,44 @@
+ 
+nav ul {
+  list-style: none; /* Enlève les puces */
+  display: flex;    /* Affiche les éléments côte à côte */
+
+}
+
+/* Espacement entre les éléments */
+nav ul li {
+  margin: 0 10px;
+}
+
+
+/* Style des liens */
+nav ul li a {
+   text-decoration: none;  /* supprimer le soulignement des liens */
+   
+}
+
+nav ul li a:hover {
+  background-color: #d8d7fc;
+  border-radius: 3px;
+}
+
+
+
+ 
+section ul {
+  list-style: none; /* Enlève les puces */
+ 
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
