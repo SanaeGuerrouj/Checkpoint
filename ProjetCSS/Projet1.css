@@ -1,0 +1,119 @@
+  .body{
+    padding: Opx;
+    margin: 0px;
+  }
+  .header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20PX;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom:  solid black;
+
+  
+  }
+
+  .navlist , .Loglist , .Logolist{
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+    
+ 
+ 
+  }
+
+
+
+   a{
+    text-decoration: none;  
+
+  }
+
+  .navsign{
+     
+  border:  solid black;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+ 
+
+  }
+
+ .navlogin ,.navitem{
+ 
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+ }
+
+ .LOGOitem{
+    font-size: 30px;
+
+ }
+
+  .logo-E{
+    color: rgb(214, 131, 22);
+  }
+
+  .section{
+
+    /*background-color: rgb(54, 42, 165);*/
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+   }
+
+   .Content{
+    
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    /* background-color: violet; */
+   }
+.Titre{
+    /* background-color: rgb(194, 23, 23); */
+    
+  font-size: 48px;
+
+
+}
+.Pragraphe{
+    /* background-color: yellow; */
+
+
+}
+.div-btn{
+    /* background-color: rgb(10, 202, 36); */
+
+}
+
+.btn1{
+    background-color: rgb(223, 35, 35);
+    border: 2px solid rgb(223, 35, 35);
+    border-radius: 15px;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btn2{
+    color: rgb(223, 35, 35);
+    border: 2px solid rgb(223, 35, 35);
+    border-radius: 15px;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+

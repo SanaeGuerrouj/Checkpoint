@@ -1,0 +1,92 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.3s, background 0.3s;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.nav-list a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.section h2 {
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.home {
+  background: url('https://source.unsplash.com/800x400/?technology,creative') no-repeat center/cover;
+  color: white;
+  padding: 100px 20px;
+  border-radius: 0 0 12px 12px;
+}
+
+.home h1 {
+  font-size: 36px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  background: #eef3fd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+  background-color: #6a11cb;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-top: 40px;
+}

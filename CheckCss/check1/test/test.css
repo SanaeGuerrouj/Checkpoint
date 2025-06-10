@@ -1,0 +1,64 @@
+/* Appliquer la police Roboto à tout le corps de la page */
+body {
+  font-family: 'Roboto', sans-serif; /* Police principale */
+  margin: 0;    /* Supprimer la marge par défaut du navigateur */
+  padding: 0;   /* Supprimer le padding par défaut */
+  background-color: #e6f2ff; /* Couleur de fond claire */
+  color: #222;  /* Couleur du texte */
+}
+
+/* Style pour l'en-tête */
+.header {
+  background-color: #004080; /* Fond bleu foncé */
+  padding: 15px 30px;        /* Espacement intérieur */
+}
+
+/* Liste de navigation */
+.nav-list {
+  list-style: none;     /* Supprime les puces de la liste */
+  display: flex;        /* Affiche les éléments en ligne (inline) */
+  gap: 25px;            /* Espace entre chaque élément */
+  margin: 0;            /* Supprime la marge par défaut */
+  padding: 0;           /* Supprime le padding par défaut */
+  justify-content: flex-end; /* Aligne la liste à droite */
+}
+
+/* Chaque élément de navigation (li) */
+.nav-item {
+  /* Pas besoin de styles spécifiques ici car le flex agit sur le parent */
+}
+
+/* Style des liens dans la navbar */
+.nav-link {
+  color: white;               /* Texte blanc */
+  text-decoration: none;      /* Supprime le soulignement */
+  font-weight: 600;           /* Texte semi-gras */
+  padding: 8px 12px;          /* Espacement autour du texte */
+  border-radius: 4px;         /* Bords arrondis */
+  transition: background-color 0.3s ease; /* Animation fluide au survol */
+}
+
+/* Effet au survol des liens */
+.nav-link:hover {
+  background-color: #3399ff;  /* Fond bleu clair au survol */
+}
+
+/* Style général des sections de contenu */
+.section {
+  padding: 40px 30px;      /* Espacement intérieur */
+  max-width: 900px;        /* Largeur max de la section */
+  margin: auto;            /* Centre horizontalement */
+  background-color: white; /* Fond blanc */
+  margin-bottom: 20px;     /* Espace sous chaque section */
+  border-radius: 8px;      /* Coins arrondis */
+  box-shadow: 0 0 8px rgba(0,0,0,0.1); /* Ombre légère */
+}
+
+/* Pied de page */
+.footer {
+  text-align: center;      /* Centre le texte */
+  padding: 20px;           /* Espacement intérieur */
+  background-color: #004080; /* Même fond que le header */
+  color: white;            /* Texte blanc */
+  font-size: 14px;         /* Taille de police */
+}
