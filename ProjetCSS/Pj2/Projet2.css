@@ -1,0 +1,150 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+
+
+
+body{
+
+background-color: white;
+
+}
+
+
+.header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgba(128, 128, 128, 0.3) 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.navlist{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    list-style: none;
+       
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* .Logolist{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+} */
+.navitem7{
+    border: solid blue;
+    background-color: blue;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+    /* margin-top: 10px; */
+}
+
+ .navitem ,.LOGOitem{
+    /* padding-top: 2px; */
+    /* padding-bottom: 2px; */
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    border-radius: 4px;
+    /* margin-top: 10px; */
+
+ }
+ .LOGOitem{
+    font-size: 30px;
+ }
+
+
+ /* Sction1 1.............................. */
+
+
+ .section1{
+    /* background-color: yellow; */
+    height: 600px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+
+
+ 
+
+ }
+
+ .content1{
+    /* background-color: brown; */
+    display: flex;
+     /* height: 700px; */
+    flex-direction: column; 
+    height: 300px; 
+     width: 400px; 
+
+
+ }
+
+ .titre1{
+    font-size: 50px;
+    width: 500px;
+
+ }
+
+ .Pargra1{
+ width: 500px;
+ margin-top: 1px;
+
+ }
+
+.btn1{
+    width: 150px;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: solid blue;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+ 
+}
+
+.btn1pos{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ /* Sction1 2.............................. */
+
+
+.Total{
+    display: flex;
+    gap: 25px;
+    margin-left: 20px; 
+    margin-right: 20px;
+ }
+
+.Bloc{
+    width: 200px;
+    padding: 30px;
+    border: solid,beige;
+}
+
+.section2{
+     display: flex;
+    justify-content: center;
+}

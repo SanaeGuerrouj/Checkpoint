@@ -1,0 +1,250 @@
+
+body{
+padding: 0px;
+margin: 0px;
+background-color: white;
+font-family: "DIN Next W01 Light", "DIN Next W02 Light", "DIN Next W10 Light", sans-serif;
+
+
+}
+
+h5{
+  font-weight: normal;
+  /* font-weight: 200; */
+}
+
+
+/* Headerrrr */
+
+.header{
+    display: flex;
+    /* margin: 20px; */
+ 
+}
+
+.Logoim{
+
+}
+.navlist{
+    text-decoration: none; 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+     
+       
+}
+
+.a1{
+    text-decoration: none;
+    color: rgb(58, 179, 152);
+}
+.a{
+    text-decoration: none;
+    color: gray;
+
+}
+.Logolist{
+    text-decoration: none;
+    list-style: none;
+ 
+    
+   
+}
+
+ 
+ .navitem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+ 
+
+ }
+
+ .navitem1{
+     padding-top: 5px;
+    padding-bottom: 5px;
+
+
+ }
+
+ .nav{
+     display: flex;
+     /* background-color: brown; */
+      width: 100%; 
+     justify-content:end;
+     margin-right: 150px;
+  }
+
+ .Logo{
+    display: flex;
+    margin-left: 150px;
+    width:100%;
+    
+   }
+
+ .LOGOitem{
+    font-size: 30px;
+    /* background-color: aqua; */
+  }
+ 
+  /* Sectionnn 1 */
+  
+  .secion1{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    /* height: 400px; */
+    align-items: center; 
+    justify-content:  flex-start; 
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+
+
+
+  }
+
+  .Section1Logo{
+    /* background-color: brown; */
+
+  }
+
+  .Section1Titre{
+    /* background-color: yellow; */
+    font-size: 40px;
+    color: rgb(58, 179, 152);
+
+  }
+
+  .Section1para{
+    /* background-color: green; */
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    color:grey;
+    line-height: 1.6;
+    flex-wrap: wrap;
+
+
+  }
+  .sectionpara1{
+    width: 350px;
+  }
+  .sectionpara2{
+    width: 350px;
+  }
+
+
+    /* Sectionnn 2 */
+
+  .secion2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    margin-left: 150px;
+     gap: 25px;
+   }
+
+  
+
+   .bloc1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: solid rgb(58, 179, 152);
+    color: white;
+    background-color: rgb(58, 179, 152);
+    border-radius: 5px;
+    padding: 20px;
+   }
+
+
+
+    .bloc2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: solid rgb(42, 70, 228);
+    color: white;
+    background-color:rgb(42, 70, 228);
+    border-radius: 5px;
+    padding: 20px;
+   }
+
+
+     .bloc3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: solid black;
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+    padding: 20px;
+   }
+
+   .b1part1,.b2part1,.b3part1{
+ font-size: 25px;
+   }
+
+   .b1part2,.b2part2,.b3part2{
+    display: flex;
+    justify-content: center;
+
+   }
+
+   /* Responsif */
+
+
+   /* @media only screen and (max-width: 600px) {
+
+    .header{
+    display: flex;
+    flex-direction: column; 
+ }
+    .Section1para{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+      .secion2{
+    display:  flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+       }
+
+    .Section1Titre{
+     font-size: 40px;
+     background-color: black;
+
+
+
+    }
+
+      .secion1{
+    /* background-color: black; */
+
+    /*margin-right: 50px;
+    margin-left: 50px;
+
+
+
+  }
+
+   .nav{
+
+     margin-right: 50px;
+     justify-content: center;
+  }
+
+
+   .Logo{
+
+    margin-left: 50px;
+     
+   }
+    }
+    
+ 
+ */
