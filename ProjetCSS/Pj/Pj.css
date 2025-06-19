@@ -1,0 +1,197 @@
+ *{
+padding: 0px;
+margin: 0px;
+
+}
+
+.header{
+    display: flex;
+    /* background-color: yellow; */
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+ 
+ }
+ 
+.navlist{
+    display:flex ;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+
+      
+    /* background-color: brown; */
+
+}
+.a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+ 
+.Logo{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.logotext{
+    color: #ff914d ;
+        font-family: 'Shrikhand', cursive;
+        font-size:20px ;
+
+
+    
+}
+.navitem4{
+    /* border: solid #ff914d; */
+    /* background-color:#ff914d; */
+    padding: 5px;
+    border-radius: 7px;
+    color:  #ff914d;
+}
+
+
+
+  /* .Cover{
+ border-radius: 50px;  
+ 
+  } */
+
+
+
+  /* Sectionn */
+
+  .Titre{
+    color: #df6920;
+    font-size: 65px;
+    font-family: 'Shrikhand', cursive;
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold; 
+ 
+   
+
+  }
+
+  .Para{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+ 
+  }
+
+
+  .section{
+    display: flex;
+    flex-direction: column; 
+    height: 500px;
+    justify-content: center;
+    align-items: center;    
+    /* justify-items: center; */
+    gap: 50px;
+ 
+
+  }
+
+  .search-box {
+  background-color: white;
+  display: flex;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+     /* background-color: aqua;  */
+    justify-content: center;
+   width: 80%;
+   gap: 45%;
+ 
+ 
+   }
+
+.search-text {
+  font-size: 18px;
+   margin: 0; 
+  color: #333;
+  display: flex;
+  align-items: center;
+    padding: 15px 28px;
+
+}
+
+.search-btn {
+  padding: 15px 28px;
+  background-color: #ff914d;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+
+}
+
+.search-btn:hover {
+  background-color: #e87f3c;}
+
+  .Cover{
+background: linear-gradient(rgba(52, 51, 51, 0.5)), url('Cover1.jpg');
+/* box-shadow: 0 0 100px #e87f3c;  */
+/* halo orange puissant */
+
+  background-size: 100% 100%; 
+  background-size: cover; 
+  background-repeat: no-repeat;        
+  background-position: center;  
+  border-radius: 15px;
+  
+
+  }
+
+
+
+ 
+
+
+  @media (max-width: 768px) {
+  .search-box {
+    flex-direction: column;     
+    gap: 16px;                 
+    width: 90%;                 
+    padding: 16px 24px;         /* Moins de padding */
+  }
+
+  .search-text {
+    width: 100%;                /* Prend toute la largeur */
+    text-align: center;         /* Centre le texte si besoin */
+  }
+
+  .search-btn {
+     text-align: center;
+  }
+
+
+
+    .Titre{
+     font-size: 48px;
+   
+ 
+   
+
+  }
+
+  .Para{
+      font-size: 18px;
+ 
+  }
+
+
+
+
+  
+}

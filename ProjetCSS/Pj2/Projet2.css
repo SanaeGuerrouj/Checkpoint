@@ -33,6 +33,10 @@ background-color: white;
        
 }
 
+ .LOGOitem{
+    font-size: 30px;
+ }
+
 a{
     text-decoration: none;
     color: black;
@@ -64,9 +68,7 @@ a{
     /* margin-top: 10px; */
 
  }
- .LOGOitem{
-    font-size: 30px;
- }
+
 
 
  /* Sction1 1.............................. */
