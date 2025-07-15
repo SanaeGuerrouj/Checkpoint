@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page 1</title>
+</head>
+<body>
+
+  <button id="btn">Ouvrir page 2</button>
+  <button id="btn2">Ajouter un paragraphe DANS page 2</button>
+
+  <script>
+    // Référence à la fenêtre de pg2
+    let pg2Window = null;
+
+    // 1. Ouvre pg2.html (doit être dans le même dossier que pg1.html)
+    document.getElementById('btn').addEventListener('click', () => {
+      pg2Window = window.open('./pg2.html', '_blank');
+      if (!pg2Window) {
+        alert('Impossible d’ouvrir pg2.html : vérifie le nom et l’emplacement du fichier.');
+      }
+    });
+
+    // 2. Envoie un message à pg2 pour ajouter un paragraphe
+    document.getElementById('btn2').addEventListener('click', () => {
+      if (pg2Window && !pg2Window.closed) {
+        pg2Window.postMessage({ action: 'addParagraph' }, '*');
+      } else {
+        alert('Page 2 non ouverte : clique d’abord sur “Ouvrir page 2”.');
+      }
+    });
+  </script>
+</body>
+</html>

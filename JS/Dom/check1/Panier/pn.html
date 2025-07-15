@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navbar Responsive - Kayali</title>
+  <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS CDN -->
+</head>
+<body class="bg-pink-50"> <!-- Couleur de fond  -->
+
+<!--  NAVIGATION BAR FIXÉE EN HAUT DE LA PAGE -->
+<nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+  <!--  Container global de la navbar -->
+  <div class="container  px-4 py-3 flex items-center justify-between">
+    
+    <!--  LOGO à gauche -->
+    <a href="#" class="text-3xl font-serif text-pink-700 font-bold hover:text-purple-700 transition">
+      Kayali
+    </a>
+
+     <div class="md:hidden"> <!-- Visible seulement sur petits écrans -->
+      <button id="menu-toggle" class="text-pink-700 focus:outline-none">
+
+
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!--  BARRE DE RECHERCHE affichée seulement sur md+ (desktop) -->
+    <div id="menu" class="hidden md:flex items-center space-x-6 w-full justify-center">
+      <!-- Formulaire avec champ de recherche -->
+      <form class="flex max-w-md w-full">
+        <input type="search" placeholder="Rechercher un parfum..."
+               class="flex-grow px-4 py-2 border border-purple-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-purple-400" />
+        <button type="submit"
+                class="bg-pink-700 text-white px-4 rounded-r-md hover:bg-purple-700 transition">
+          Rechercher
+        </button>
+      </form>
+    </div>
+
+    <!--  LOGIN + 🛒 PANIER affichés sur desktop -->
+    <div class="hidden md:flex items-center space-x-6">
+      <!-- Lien Login -->
+      <a href="#" class="text-purple-700 hover:text-purple-900 font-medium">Login</a>
+
+      <!-- Icône Panier avec badge compteur -->
+      <button class="relative text-purple-700 hover:text-purple-900">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4"/>
+          <circle cx="7" cy="21" r="1"></circle>
+          <circle cx="17" cy="21" r="1"></circle>
+        </svg>
+        <!-- Badge (nombre d'articles dans le panier) -->
+        <span class="absolute top-0 right-0 -mt-1 -mr-2 bg-pink-700 text-white text-xs rounded-full px-1">
+          0
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!--  MENU MOBILE déroulant (caché par défaut) -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-4">
+    
+    <!--  Barre de recherche pour mobile -->
+    <form class="flex w-full">
+      <input type="search" placeholder="Rechercher..."
+             class="flex-grow px-4 py-2 border border-purple-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-purple-400" />
+      <button type="submit"
+              class="bg-pink-700 text-white px-4 rounded-r-md hover:bg-purple-700 transition">
+        OK
+      </button>
+    </form>
+
+    <!--  Login mobile -->
+    <a href="#" class="block text-purple-700 font-medium">Login</a>
+
+    <!--  Panier mobile -->
+    <button class="relative text-purple-700 hover:text-purple-900">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4"/>
+        <circle cx="7" cy="21" r="1"></circle>
+        <circle cx="17" cy="21" r="1"></circle>
+      </svg>
+      <!-- Badge (mobile) -->
+      <span class="absolute top-0 right-0 -mt-1 -mr-2 bg-pink-700 text-white text-xs rounded-full px-1">
+        0
+      </span>
+    </button>
+  </div>
+</nav>
+
+ <script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden'); // affiche ou cache le menu mobile
+  });
+</script>
+
+ <div class="mt-28 p-6">
+  <h1 class="text-2xl font-bold">Contenu de la page ici...</h1>
+  <p class="text-gray-600 mt-2">Bienvenue sur la page d'accueil du site Kayali 💜</p>
+</div>
+
+</body>
+</html>
