@@ -3,6 +3,8 @@
 function Body() {
   return (
   <div className="w-full bg-[#DBD0CC] flex mb-6">
+
+    
        <img src="/im.png" className="w-1/2"></img>     
 
  <div className="w-1/2 flex flex-col justify-center  ">

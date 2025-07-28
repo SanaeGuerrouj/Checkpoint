@@ -17,7 +17,7 @@ function CP2() {
   const Data1 =cardsData1.map(x=>
 
 
-     <div className="flex flex-col w-64  p-4 rounded h-[550px] ">
+     <div className="flex flex-col w-64  p-4 rounded h-[550px] items-center justify center ">
       <div className="object-cover w-full h-3/4 bg-gray-200 flex justify-center items-center"> 
      <img src={x.image} ></img>
 
@@ -34,27 +34,10 @@ function CP2() {
 
   )
 
-  // const Data2 =cardsData2.map(y=>
-
-
-  //    <div className="flex flex-col w-1/2  p-4 rounded h-[550px]">
-  //     <div className="object-cover w-full h-3/4 bg-gray-200 flex justify-center items-center"> 
-  //    <img src={y.image} ></img>
-
-  //     </div>
-  //       <div className=" flex flex-col h-1/4   justify-center ">
-  //        <h1 className="font-bold">{y.titre}</h1>
-  //        <h1>Etoile</h1>
-  //       <h1 className="font-bold">30$</h1>
-
-
-  //         </div>
-
-  //        </div>
-  // )
+ 
   return (
  
-    <div className="  flex flex-wrap  gap-2	 gap-2	w-full py-4  px-10	">
+    <div className="  flex flex-wrap  gap-2	 gap-2	w-full justify-center	">
     {Data1}
     </div>
 

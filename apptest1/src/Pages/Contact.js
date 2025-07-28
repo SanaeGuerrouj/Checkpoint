@@ -1,5 +1,5 @@
  
-   import Compcontact from "../compcontact/contact1"
+   import Compcontact from "../Component/Contact"
 
 function Contact() {
   return (

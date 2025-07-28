@@ -10,14 +10,15 @@ function CP1() {
 
     const infom = info1.map (ligne =>
             
-     
-     <div className={`flex w-1/2  p-4 rounded h-[353px] ${ligne.bg}`}>
+
+      <div className={`flex   p-4 rounded h-[353px] ${ligne.bg}`}>
       <img src={ligne.image} className="h-full w-1/2 "></img>
          <div className="flex flex-col justify-center items-center ">
         <h1 className="font-bold mb-8">{ligne.titre}</h1>
          <button className="font-bold border border-black p-4">VIEW DETAILS</button>
          </div>
 
+      
          </div>
 
     
@@ -28,7 +29,7 @@ function CP1() {
 
     <div className="px-10 ">
         
-    <div className="CP1  flex  	 gap-10	w-full ">
+    <div className="CP1  flex flex-wrap justify-center w-full	 gap-10	w-full ">
 
     {infom}
 

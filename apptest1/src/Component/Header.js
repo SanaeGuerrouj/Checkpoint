@@ -1,3 +1,4 @@
+import {  Link } from "react-router-dom";
 
  
 function Header() {
@@ -17,20 +18,20 @@ function Header() {
           </div>
 
 <nav >
-  <li className="flex gap-12 justify-center pt-8 text-2xl border-b border-black pb-6">
-          <ul>HOME</ul>
-          <ul>STORE</ul>
-          <ul>ACCESSORIES</ul>
-          <ul>BRAND</ul>
-          <ul>PAGES</ul>
-          <ul>ABOUT US</ul>
-          <ul>NEWS</ul>
-          <ul>CONTACT US </ul>
+  <ul className="flex gap-12 justify-center pt-8 text-2xl border-b border-black pb-6">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">STORE</Link></li>
+          <li><Link to="/">ACCESSORIES</Link></li>
+          <li><Link to="/">BRAND</Link></li>
+          <li><Link to="/">PAGES</Link></li>
+          <li><Link to="/about">ABOUT US</Link></li>
+          <li><Link to="/">NEWS</Link></li>
+          <li><Link to="/contact">CONTACT US</Link> </li>
 
-        </li>
+        </ul>
 </nav>
 
-<div className="mt-6">
+{/* <div className="mt-6">
   <div className="px-64	">
     <img src="/Vector1.png"  className="h-10 w-12 "></img>
   </div>
@@ -49,7 +50,7 @@ function Header() {
 
   </div>
 
-</div>
+</div> */}
 
 
 

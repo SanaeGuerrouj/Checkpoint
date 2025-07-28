@@ -3,7 +3,7 @@
 function Compcontact() {
   return (
 
-    <div className="w-full flex flex flex-wrap px-16 gap-36">
+    <div className="w-full flex flex flex-wrap px-16 gap-36 bg-rose-100 py-16 justify-center ">
       <div >
     <h1 className="text-6xl font-bold mb-6">Contact Us</h1>
     <p className="text-3xl mb-8 " >We're here to assist you! If you have <br />
@@ -13,18 +13,21 @@ function Compcontact() {
     <p className="text-3xl">We use VeilMail.io to protect your<br /> email address from spam.</p>
     </div>
 
-    <div>
+    <div  >
       <h1 className="text-6xl font-bold mb-6">Contact Form</h1>
       <form className="w-full">
       <label for="name" className="block font-semibold mb-2">Your Name:</label><br />
     <input type="text" id="name" name="name" className="border border-black rounded bg-white text-black w-full" required /><br /><br />
 
-    <label for="email">Your Email:</label><br />
+    <label for="email"  className="block font-semibold mb-2">Your Email:</label><br />
     <input type="email" id="email" name="email" className="border border-black rounded bg-white text-black w-full " required /><br /><br />
 
-     <label for="message">Your Message:</label><br />
+     <label for="message"  className="block font-semibold mb-2">Your Message:</label><br />
     <textarea id="message" name="message" rows="4" className="border border-black rounded bg-white text-black w-full " required></textarea><br /><br />
+
       </form>
+      <button className="font-bold border border-black p-4 mt-16">Submit</button>
+
     </div>
     </div>
 
