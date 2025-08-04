@@ -20,7 +20,7 @@ function Header() {
 <nav >
   <ul className="flex gap-12 justify-center pt-8 text-2xl border-b border-black pb-6">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/">STORE</Link></li>
+          <li><Link to="/store">STORE</Link></li>
           <li><Link to="/">ACCESSORIES</Link></li>
           <li><Link to="/">BRAND</Link></li>
           <li><Link to="/">PAGES</Link></li>
