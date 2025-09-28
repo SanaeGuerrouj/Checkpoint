@@ -1,0 +1,42 @@
+mkdir mon-projet
+cd mon-projet
+
+npm init -y
+
+cd mon-projet
+code .
+
+
+// Create Server
+const http =require("http")
+const PORT =3000
+
+
+const server =http.createServer((req,res)=>{
+    res.end("Hello from Backend")
+
+})
+ server.listen(PORT,() =>{
+    console.log("server runnin at port 3000")
+ }
+)
+
+
+
+npm node index.js
+
+
+Apres :Instaler nodemon pr auto save
+ npm i nodemon 
++ 
+config
+ms7     "test": "echo \"Error: no test specified\" && exit 1"
+wdir      "start": "nodemon index.js" (Hna fichier smito index)
+
+
+daba nb9a runer b  
+ npm start
+
+
+
+
